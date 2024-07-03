@@ -60,41 +60,11 @@ export default function Page() {
                         return ctx === "dev" ? devModeWarning : null;
                     }
                 } />
-                <h1 className="mb-0">Image CDN</h1>
-            </section>
-            <section>
-                <h2 className="mb-4 text-2xl font-bold sm:text-3xl">Using next/image component</h2>
-                <Markdown content={nextImageSnippet} />
-                <div
-                    className="mt-8 overflow-hidden border-2 border-white rounded-lg relative max-w-screen-lg"
-                    style={{ aspectRatio: '3/2' }}
-                >
-                    <Image
-                        src="/images/corgi.jpg"
-                        priority
-                        fill={true}
-                        style={{ objectFit: 'contain' }}
-                        sizes="(max-width: 1024px) 100vw, 1024px"
-                        alt="Corgi"
-                    />
-                </div>
-                <span className="text-sm italic">
-                    Credit: photo by{' '}
-                    <a href="https://unsplash.com/@alvannee?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">
-                        Alvan Nee
-                    </a>{' '}
-                    on{' '}
-                    <a href="https://unsplash.com/photos/long-coated-white-and-brown-dog-lvFlpqEvuRM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">
-                        Unsplash
-                    </a>
-                </span>
+                <h1 className="mb-0">Image Gallery</h1>
             </section>
 
             <section>
-                <h2 className="mb-4 text-2xl font-bold sm:text-3xl">
-                    Original vs. optimized image: can you tell the difference?
-                </h2>
-                <Markdown content={originalVsCdnSnippet} />
+                
                 <div className="diff aspect-[3/2] rounded-lg border-2 border-white mt-8">
                     <div className="diff-item-1">
                         <div>

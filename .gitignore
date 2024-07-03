@@ -38,3 +38,6 @@ yarn-error.log*
 
 # Local Netlify folder
 .netlify
+
+# some file that keeps showing up when i run netlify dev
+deno.lock
