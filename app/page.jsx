@@ -19,7 +19,7 @@ export default function Page() {
             <section className="flex flex-col items-start gap-3 sm:gap-4">
                 <ContextAlert />
                 <h1 className="mb-0">Anchor Point HOA</h1>
-                <p className="text-lg">Homeowner's Association in Apollo Beach, FL</p>
+                <p className="text-lg">Homeowner&apos;s Association in Apollo Beach, FL</p>
                 
                 <h4>Random Wikipedia Knowledge</h4>
                 
