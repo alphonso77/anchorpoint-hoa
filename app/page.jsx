@@ -1,4 +1,3 @@
-import { ContextAlert } from 'components/context-alert';
 import { revalidateTag } from 'next/cache';
 import { SubmitButton } from '../components/submit-button';
 
@@ -17,7 +16,7 @@ export default function Page() {
     return (
         <main className="flex flex-col gap-8 sm:gap-16">
             <section className="flex flex-col items-start gap-3 sm:gap-4">
-                <ContextAlert />
+
                 <h1 className="mb-0">Anchor Point HOA</h1>
                 <p className="text-lg">Homeowner&apos;s Association in Apollo Beach, FL</p>
                 
